@@ -61,17 +61,17 @@
 
               </div>
               <div class="form-group">
-                <label>Mobile Number</label>
+                <label>Mobile</label>
                 <input type="tel" class="form-control" formControlName="mobNumber" />
 
               </div>
               <div class="form-group">
-                <label>Enter Your Age</label>
+                <label>Age</label>
                 <input type="number" class="form-control" formControlName="age" />
 
               </div>
               <div class="form-group">
-                <label>Enter Number</label>
+                <label>Number</label>
                 <input type="date" class="form-control" formControlName="dob" />
 
               </div>
@@ -147,12 +147,12 @@
 
               </div>
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Something About You</label>
+                <label for="exampleFormControlTextarea1">Write About You</label>
                 <textarea class="form-control" rows="3" formControlName="aboutYou"></textarea>
 
               </div>
               <div class="form-group">
-                <label for="exampleFormControlFile1">Upload Your Photo</label>
+                <label for="exampleFormControlFile1">Upload Photo</label>
                 <span *ngIf="edit_user"><span>Uplload image</span><br>{{upload_file_name}} <span> <a
                       href="">Preview</a></span></span>
                 <input type="file" class="form-control-file" formControlName="uploadPhoto">
